@@ -1,0 +1,185 @@
+.App {
+  background-color: #F3F4F5;
+  padding: 5%;
+  height:1500px;
+}
+.paymentProfile{
+  background-color: #fff;
+  margin-top:100px;
+  margin-bottom: 5%;
+  z-index:5;
+  border-radius: 25px;
+  width:80%;
+  padding-bottom:1%;
+}
+.paymentProfileImage{
+  z-index:5;
+  border-radius: 50%;
+  margin-top:-100px;
+  /* border: 1rem solid #fff; */
+}
+.paymentProfileDetails{
+  z-index:1;
+  border-radius: 25px;
+  background-color:  #fff;
+
+}
+.paymentDetails{
+  z-index:1;
+  border-radius: 25px;
+  background-color: #fff;
+
+}
+.payeeName{
+  font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.loginStripe{
+  background-color: #6495ED ;
+  color:#fff ;
+  padding:10px;
+}
+.loginStripe:hover{
+  background-color: #2E86C1  ;
+}
+.payOut{
+  background-color: #52BE80 ;
+  color:#fff ;
+  padding:10px;
+}
+.payOut:hover{
+  background-color: #138D75  ;
+}
+.profileText{
+  font-family: 'Roboto', sans-serif;
+}
+.profileContentText{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.contractCard{
+  background-color: #fff;
+  border: .0001rem solid #bdc3ce;
+  border-right: .4rem solid #526fa1;
+  border-left: .4rem solid #526fa1;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  box-shadow:
+       inset 0 -3em 3em rgba(206, 223, 240, 0.131),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(192, 187, 187, 0.3);
+}
+.contractImg{
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+  padding: 5%;
+}
+.contractCardDetail{
+  background-color: rgb(248, 244, 244);
+  border-right: .4rem solid #448aff;
+  border-left: .4rem solid #448aff;
+  border-color: #559ecf;
+}
+.contractCardDetailPaddingBottom{
+  border-bottom: .2rem solid #2f4163d9;
+  box-shadow:
+  inset 0 -3em 3em rgba(206, 223, 240, 0.131),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(192, 187, 187, 0.3);
+  margin-bottom: 1%;
+}
+.contractCardDetailPaddingTop{
+  border-top: .2rem solid #2f4163d9;
+  box-shadow:
+  inset 0 -3em 3em rgba(206, 223, 240, 0.131),
+        0 0  0 2px rgb(255,255,255),
+        0.3em 0.3em 1em rgba(192, 187, 187, 0.3);
+  
+}
+.contractMainCard{
+  background-color: #e2e6e8;
+  /* border-top-left-radius:50px ; */
+  /* border-bottom-left-radius:50px ; */
+  border-top-left-radius: .5rem;
+}
+
+.showMenu {
+  height:180px; 
+  overflow: hidden;
+  transition: height 300ms;
+}
+.hideMenu {
+  height: 0px;
+  overflow: hidden;
+  transition: height 300ms;
+}
+.contractName{
+  font-size:21px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.unitName{
+  font-size:17px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.status{
+  font-family: 'Kanit', sans-serif;
+  font-size:5px;
+}
+.contractButton{
+  font-family: 'Roboto', sans-serif;
+  padding-left:8%;
+  padding-right:8%;
+  
+}
+.successText{
+  background-color: #D5F5E3;
+  color:#7DCEA0 ;
+}
+.primaryText{
+  background-color: #367199 ;
+}
+.primaryText:hover{
+  background-color: #6999b9 ;
+  cursor: pointer;
+}
+.warningText{
+  background-color: #FDEBD0;
+  color:#E59866 ;
+}
+.dangerText{
+  background-color: #FDEDEC;
+  color:#EC7063;
+
+}
+.infoText{
+  background-color:#BB8FCE ;
+}
+.secoundaryText{
+  background-color: #BDC3C7 ;
+}
+.editButton{
+  
+}
+.editButton:hover{
+  background-color:#9B59B6;
+  cursor: pointer;
+}
+.detailsText{
+  font-size:16px;
+ 
+  font-family: 'Roboto', sans-serif;
+font-weight: 600;
+}
+.detailsText1{
+  font-size:13px;
+  font-family: 'Roboto', sans-serif;
+/* font-family: 'Kanit', sans-serif; */
+/* font-family: 'Titillium Web', sans-serif; */
+font-weight: 400;
+}
+
+
+
+
